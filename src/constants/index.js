@@ -27,6 +27,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    faab,
+    confluxx,
   } from "../assets";
   
   export const navLinks = [
@@ -177,6 +179,30 @@ import {
       source_code_link: "https://github.com/Voxusss/Portfolio",
     },
     {
+      name: "FAAB",
+      description:
+        "Full-Stack application made with Django that allows users to send in cards to be graded, pay using Stripe and grade cards automatically via an image classification model.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PyTorch",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: faab,
+    },
+    {
       name: "VHTools",
       description:
         "An all-in-one solution for botting raffles and giveaways, including an outlook email generator supporting Captchas, address generator, phone number generator, and a tracking / analytics tool.",
@@ -198,20 +224,24 @@ import {
       source_code_link: "https://github.com/Voxusss/VHTools",
     },
     {
-      name: "aToolaWeek",
+      name: "Confluxx",
       description:
-        "A collection of tools that I have created over the course of a week (maybe more, maybe less) with the overall intent of showcasing algorithmical skills. (PRIVATE REPO FOR NOW)",
+        "Rogue-like Tower Defense with intricate mechanics and a unique art style. Made in Unity with C#. The game is currently in development, expected to be released in early 2026.",
       tags: [
         {
-          name: "python",
+          name: "C#",
           color: "green-text-gradient",
         },
         {
-          name: "git",
+          name: "Unity",
+          color: "black-text-gradient",
+        },
+        {
+          name: "Blender",
           color: "black-text-gradient",
         },
       ],
-      image: ataw,
+      image: confluxx,
     },
     {
       name: "Earth2 BuyBot",
