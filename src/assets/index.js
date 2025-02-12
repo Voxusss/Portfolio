@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import web_link_img from "./web_link_img.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -28,6 +29,8 @@ import tesla from "./company/tesla.png";
 import amu from "./company/amu.png";
 import vh from "./vh.png";
 import faab from "./faab.png";
+import lis from "./company/lis.png";
+import duby from "./company/duby.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +38,7 @@ import tripguide from "./tripguide.png";
 import ataw from "./ataw.png";
 import earth2 from "./earth2.jpg";
 import confluxx from "./confluxx.png";
+import pitchside from "./pitchside.png";
 
 export {
   logo,
@@ -43,6 +47,7 @@ export {
   mobile,
   web,
   github,
+  web_link_img,
   menu,
   close,
   css,
@@ -66,9 +71,12 @@ export {
   vh,
   faab,
   confluxx,
+  lis,
+  duby,
   tesla,
   carrent,
   jobit,
   earth2,
   tripguide,
+  pitchside,
 };

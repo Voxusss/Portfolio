@@ -5,6 +5,7 @@ import { styles } from "../styles"
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motions"
+import ReactMarkdown from "react-markdown"
 
 const ExperienceCard = ({experience}) => (
     <VerticalTimelineElement
@@ -17,7 +18,7 @@ const ExperienceCard = ({experience}) => (
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[85%] h-[85%] object-contain"
           />
         </div>
       }
@@ -34,7 +35,7 @@ const ExperienceCard = ({experience}) => (
             key={`experience-point-${index}`}
             className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
-            {point}
+            <ReactMarkdown>{point}</ReactMarkdown>
           </li>
           ))}
 
